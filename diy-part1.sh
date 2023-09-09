@@ -20,6 +20,6 @@ echo 'src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall.gi
 echo 'src-git passwall_luci https://github.com/xiaorouji/openwrt-passwall.git;luci' >>feeds.conf.default
 echo 'src-git dockerman https://github.com/lisaac/luci-app-dockerman.git' >>feeds.conf.default
 git clone https://github.com/xkstudio/luci-app-pptp-server.git package/pptp
-echo 'src-git openvswitch git https://github.com/schuza/openvswitch.git' >>feeds.conf.default
+echo 'src-git openvswitch  https://github.com/schuza/openvswitch' >>feeds.conf.default
 echo 'src-git adguardhome https://github.com/rufengsuixing/luci-app-adguardhome' >>feeds.conf.default
 echo 'src-git openclash https://github.com/vernesong/OpenClash' >>feeds.conf.default
